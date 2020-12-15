@@ -6,13 +6,14 @@
 		<title>thuc hanh</title>
 	</head>
 	<body>
-		<table border="2px" width="50%" height="500px">
+		<form></form>
+		<table  width="50%" height="500px" bgcolor="lavender">
 			<tr>
-				<b><td colspan="2" bgcolor="green" align="center"> zent group</td></b>
+				<b><td colspan="2" bgcolor="orange" align="center" height="25px"> <h4>Zent group</h4> </td></b>
 				
 			</tr>
 			<tr>
-				<td align="center">Họ và tên</td>
+				<td align="center" width="50%">Họ và tên</td>
 				<td align="center"><input type="text" name=""></td>
 			</tr>
 			<tr>
@@ -20,34 +21,59 @@
 				<td align="center"><input type="text" name=""></td>
 			</tr>
 			<tr>
-				<td></td>
-				<td></td>
+				<td align="center">Số điện thoại</td>
+				<td align="center"><input type="text" name=""></td>
 			</tr>
 			<tr>
-				<td></td>
-				<td></td>
+				<td align="center">Quê quán</td>
+				<td align="center">
+					<select>
+					<option value="Hanoi">Hà Nội</option>
+					<option value="Hochiminh">Hồ Chí Minh</option>
+					<option value="hatinh">Hà Tĩnh</option>
+				    </select>
+			    </td>
 			</tr>
 			<tr>
-				<td></td>
-				<td></td>
+				<td align="center">Giới tính </td>
+				<td align="center">
+					<input type="radio" name="gender" > Nam
+					<input type="radio" name="gender" > Nữ
+					<input type="radio" name="gender" > Khác
+				</td>
 			</tr>
 			<tr>
-				<td></td>
-				<td></td>
+				<td align="center">Kĩ năng</td>
+				<td align="center">
+					<input type="checkbox" name="agree"> HTML
+					<input type="checkbox" name="agree"> CSS
+					<input type="checkbox" name="agree"> Javascript
+
+				</td>
 			</tr>
 			<tr>
-				<td></td>
-				<td></td>
+				<td align="center">Ngày sinh</td>
+				<td align="center"><input type="date" name="birthday"></td>
 			</tr>
 			<tr>
-				<td></td>
-				<td></td>
+				<td align="center">Chú thích</td>
+				<td align="center">
+				
+						<textarea name="" cols="20" rows="5"></textarea>
+						
+					
+				</td>
 			</tr>
 			<tr>
-				<td colspan="2"></td>
+				<td colspan="2" bgcolor="orange" height="25px" align="center">
+					<button>Submit</button>
+						
+					<button>Reset</button>
+				</td>
 				
 			</tr>
 		</table>
+		</form>
 		
 	</body>
 	</html>	
