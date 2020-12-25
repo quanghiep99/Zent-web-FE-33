@@ -1,0 +1,47 @@
+.main{
+	width: 60%;
+	height: auto;
+	background: white;
+	align:center;
+	background: pink;
+	
+    
+}
+.up{
+	
+	width: 100%;
+	height:50%;
+}
+}
+.down{
+	
+	width: 100%;
+	height:50%;
+}
+.up ul {
+	list-style: none;
+	text-align: center;
+	margin: 10px auto;
+	
+}
+.down ul {
+	list-style: none;
+	text-align: center;
+	margin: 10px auto;
+	
+
+}
+.up ul li {
+	display: inline-block;
+	 
+}
+.down ul li {
+	display: inline-block;
+}
+.up ul li:hover
+{
+	color: blue;
+}
+.down ul li:hover{
+	color: red;
+}

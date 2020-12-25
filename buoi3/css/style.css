@@ -1,0 +1,36 @@
+p {
+	color: blue;
+	font-family: arial;
+	font-style: oblique;
+	font-weight: bold;
+	font-size: 10x;
+	text-decoration: underline;
+	text-indent: 20px;
+	text-align: center;
+}
+div {
+	background: gray;
+	width: 100px;
+	height: 50px
+}
+.Mien_bac{
+	color: red;
+}
+.Mien_trung{
+	color:blue ;
+}
+#Mienbac {
+	color: gray;
+}
+#myworld > p{
+	color: yellow;
+}
+body {
+	background-image: url('C:/Users/HONGHA/Desktop/zent-frontend/buoi3/image/ban do.jpg');
+	background-repeat: repeat;
+    height: 1000px;
+    background-attachment: fixed;
+}
+a{
+	text-decoration: underline;
+}

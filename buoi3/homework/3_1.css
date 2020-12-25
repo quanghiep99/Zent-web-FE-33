@@ -1,0 +1,29 @@
+#main{
+	width: 700px;
+	border: 1px none solid;
+	display: grid;
+	grid-template-columns: 130px 130px 130px 130px 130px 130px ;
+	margin: 10px auto;
+	grid-column-gap: 10px;
+    
+}
+.a {
+color: orange;
+}
+.b {
+	font-family: arial;
+	color: blue; 
+}
+.c {
+	border: 1px solid black;
+	text-align: center;
+}
+ .a:hover {
+ 	color: blue;
+ }
+ .b:hover {
+ 	color: black;
+ }
+ .c:hover {
+ 	background: gray;
+ }
