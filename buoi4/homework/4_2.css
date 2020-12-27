@@ -1,0 +1,28 @@
+.menu {
+	width: 100%;
+	height: 70px;
+	background:orange;
+	border: 1px black solid;
+	margin: 5px ;
+	padding: 0px;
+	position: relative;
+}
+.menu p {
+	float: left;
+}
+.menu ul li {
+	list-style-type: none;
+	display: inline-table;
+	width: 60px;
+	height: 10px;	
+	line-height: 30px;
+	border-left: 1px black solid;
+	margin: 10px;
+	text-align: center;
+	position: absolute;
+	top:5px;
+	bottom: 5px;
+
+}
+
+

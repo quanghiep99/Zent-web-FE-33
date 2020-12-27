@@ -1,0 +1,337 @@
+.container{
+	width: 100%;
+	height: 800px ;
+
+}
+body background {
+	width: 100%;
+	height: 950px;
+}
+.pone{
+	font-size: 30px;
+	margin-top: 15px;
+	margin-left: 20px;
+	float: left;
+
+}
+.head{
+	width: 100%;
+	height: 80px;
+	
+}
+.head ul li{
+	display: inline-block;
+	list-style-type: none;
+	margin-top: 20px;
+	margin-left: 40px;
+	float: right;
+	margin-right: 20px
+
+}
+.head ul{
+	margin-right: 450px;
+}
+.body ul li { 
+	list-style-type: none;
+	margin-top: 10px;
+
+}
+.body ul {
+	float:left;
+}
+.sp {
+	width: 80%;
+	height: 500px;
+	margin-top: 100px;
+	margin-left: 200px;
+	position: absolute;
+	left: 100px;
+	bottom: auto;
+	
+
+
+}.sp img {
+	width: 150px;
+	height: 150px;
+}
+.a {
+	width: 150px;
+	height: 200px;
+	border: 1px black solid;
+	border-radius: 7px 7px 7px 7px;
+	position: relative;
+	left: 200px
+	bottom:auto;
+	background: lavender;
+	z-index: 1
+
+}
+.a img {
+	max-width: 170px;
+	max-height: 200px;
+	
+	border-bottom-left-radius: 7px; 
+	border-bottom-right-radius: 7px; 
+
+}
+.b {
+	width: 150px;
+	height: 200px;
+	border: 1px black solid;
+	border-radius: 7px 7px 7px 7px;
+	position:  relative;
+	left: 200px;
+	bottom: 200px;
+	background: lavender;
+}
+.b img {
+	max-width: 150px;
+	max-height: 200px;
+	border-bottom-left-radius: 7px; 
+	border-bottom-right-radius: 7px;
+
+}
+.c img {
+	max-width: 160px;
+	max-height: 200px;
+	border-bottom-left-radius: 7px; 
+	border-bottom-right-radius: 7px;
+}
+.d img {
+	max-width: 150px;
+	max-height: 200px;
+	border-bottom-left-radius: 7px; 
+	border-bottom-right-radius: 7px;
+}
+.e img {
+	max-width: 150px;
+	max-height: 200px;
+	border-bottom-left-radius: 7px; 
+	border-bottom-right-radius: 7px;
+}
+.f img {
+	max-width: 150px;
+	max-height: 200px;
+	border-bottom-left-radius: 7px; 
+	border-bottom-right-radius: 7px;
+}
+.g img {
+	max-width: 150px;
+	max-height: 200px;
+	border-bottom-left-radius: 7px; 
+	border-bottom-right-radius: 7px;
+}
+
+.c {
+	width: 150px;
+	height: 200px;
+	border: 1px black solid;
+	border-radius: 7px 7px 7px 7px;
+	position: relative;
+	left: 400px;
+	bottom: 400px;
+	background: lavender;
+}
+.d{
+	width: 150px;
+	height: 200px;
+	border: 1px black solid;
+	border-radius: 7px 7px 7px 7px;
+	position: relative;
+	bottom: 380px;
+	background: lavender;
+
+}
+.e {
+	width: 150px;
+	height: 200px;
+	border: 1px black solid;
+	border-radius: 7px 7px 7px 7px;
+	position: relative;
+	left: 200px;
+	bottom: 580px;
+	background: lavender;
+}
+.f{
+	width: 150px;
+	height: 200px;
+	border: 1px black solid;
+	border-radius: 7px 7px 7px 7px;
+	position: relative;
+	left: 400px;
+	bottom: 780px;
+	background: lavender;
+}
+.g {
+	width: 150px;
+	height: 200px;
+	border: 1px black solid;
+	border-radius: 7px 7px 7px 7px;
+	position: relative;
+	background: lavender;
+	bottom: 760px;
+}
+
+.a:before {
+	content: "Zentphone by zent group";
+	font-size: 10px;
+	color: white;
+	text-align: center;
+	width: 150px;
+	height: 30px;
+	border: 1px black solid;
+	border-bottom-left-radius: 7px;
+	border-bottom-right-radius: 7px;
+	background: black;
+	position: absolute;
+	bottom: 0px;
+	opacity: 0.5;
+}
+.b:before {
+	content: "Do you best the real will come";
+	font-size: 10px;
+	color: white;
+	text-align: center;
+	width: 150px;
+	height: 30px;
+	border: 1px black solid;
+	border-bottom-left-radius: 7px;
+	border-bottom-right-radius: 7px;
+	background: black;
+	position: absolute;
+	bottom: 0px;
+	opacity: 0.5;
+}
+.c:before {
+	content: "Take a shot!A pullizer price";
+	font-size: 10px;
+	color: white;
+	text-align: center;
+	width: 150px;
+	height: 30px;
+	border: 1px black solid;
+	border-bottom-left-radius: 7px;
+	border-bottom-right-radius: 7px;
+	background: black;
+	position: absolute;
+	bottom: 0px;
+	opacity: 0.5;
+}
+.d:before {
+	content: " what about dollar keep calm ";
+	font-size: 10px;
+	color: white;
+	text-align: center;
+	width: 150px;
+	height: 30px;
+	border: 1px black solid;
+	border-bottom-left-radius: 7px;
+	border-bottom-right-radius: 7px;
+	background: black;
+	position: absolute;
+	bottom: 0px;
+	opacity: 0.5;
+}
+.e:before {
+	content: "Zentphone by zent group";
+	font-size: 10px;
+	color: white;
+	text-align: center;
+	width: 150px;
+	height: 30px;
+	border: 1px black solid;
+	border-bottom-left-radius: 7px;
+	border-bottom-right-radius: 7px;
+	background: black;
+	position: absolute;
+	bottom: 0px;
+	opacity: 0.5;
+}
+.f:before {
+	content: "Zentphone by zent group";
+	font-size: 10px;
+	color: white;
+	text-align: center;
+	width: 150px;
+	height: 30px;
+	border: 1px black solid;
+	border-bottom-left-radius: 7px;
+	border-bottom-right-radius: 7px;
+	background: black;
+	position: absolute;
+	bottom: 0px;
+	opacity: 0.5;
+}
+.g:before {
+	content: "Zentphone by zent group";
+	font-size: 10px;
+	color: white;
+	text-align: center;
+	width: 150px;
+	height: 30px;
+	border: 1px black solid;
+	border-bottom-left-radius: 7px;
+	border-bottom-right-radius: 7px;
+	background: black;
+	position: absolute;
+	bottom: 0px;
+	opacity: 0.5;
+}
+.body ul li:hover{
+	color: white;
+}
+.a:hover {
+color: red;
+}
+.b:hover {
+color: red;
+}
+
+.c:hover {
+color: red;
+}
+
+.d:hover {
+color: red;
+}
+
+.e:hover {
+color: red;
+}
+
+.f:hover {
+color: red;
+}
+
+.g:hover {
+color: red;
+}
+
+.footer {
+	width: 100%;
+	height: 50px;
+	
+	margin-top: 800px;
+
+
+
+}
+.footer ul li {
+	list-style-type: none;
+	display: inline-block;
+	margin-right: 10px;
+}
+.footer p{
+	float: left;
+	margin-left: 15px;
+}
+.footer ul{
+	float: right;
+	margin-right: 300px;
+
+}
+body  {
+	background-size: 100% 950px;
+	background-repeat: no-repeat;
+
+}
