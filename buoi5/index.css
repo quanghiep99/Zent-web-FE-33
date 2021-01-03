@@ -1,0 +1,70 @@
+.container {
+	width: 400px;
+	height: 600px;
+	background: pink;
+	border: 1px black solid;
+
+}
+.head {
+	width: 80%;
+	height: auto;
+	margin: 0px auto;
+	padding: 10px;
+	font-size: 20px;
+      }
+.one {
+	float: left;
+}
+.two {
+	float: right;
+}
+.headtwo{
+	float: left;
+}
+.fb{
+	display: inline-block;
+	width: 100%;
+	height: 30px;
+	background: blue;
+	text-align: center;
+	padding: 5px;
+	color: white;
+	
+
+}
+.tw {
+	display: inline-block;
+	width: 100%;
+	height: 30px;
+	background: gray;
+	margin-top: 20px; 
+	text-align: center;
+	padding: 5px;
+	color: white;
+
+}
+.head:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+.head a {
+	text-decoration: none;
+}
+.body { 
+	width: 80%;
+	height: auto;
+	margin: 0px auto;
+	padding: 10px;
+
+
+}
+.email input {
+	width: 100%;
+	height: 50px;
+	display: block;
+
+
+}
+	
+}
