@@ -1,0 +1,30 @@
+*{
+	padding: 0;
+	box-sizing: border-box;
+	margin: 0;
+}
+ul ol {
+	list-style: none;
+}
+.card {
+	width: 30%;
+	background: #c8c8c845;
+	position: relative;
+}
+.avatar img {
+	width: 100%;
+}
+.card-body{
+	background-color: #c8c8c845;
+	position: absolute;
+	transition: top 1s ease-in ;
+	top: 100%;
+
+}
+.card:hover .card-body {
+	top: 50%;
+}
+.card-body h5 {
+	color: blue;
+	
+}

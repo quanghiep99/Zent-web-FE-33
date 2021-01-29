@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+	<html lang="vi">
+	<head>
+		<meta charset="utf-8">
+		<title>Ex 4: Tính tổng S = 1 /1! + 2 /2! + ....+ n / n!</title>
+		<style type="text/css">
+			* {
+				margin: 0;
+				margin: 0;
+			}
+
+			#wrapper {
+				background: gray;
+				background-size: cover;
+				width: 100%;
+			}
+			#content {
+				background: green;
+				opacity: 0.9;
+				margin: auto;
+			}
+			#content h1 {
+				text-align: center;
+				width: 100%;
+				opacity: 1;
+				background: gray;
+			}
+			#content input, label {
+				margin-top: 10px;
+				margin-bottom: 10px;
+			}
+			#result {
+				width: 100%;
+				text-align: center;
+				font-size: 150%;
+				background: yellow;
+			}
+			@media screen and (min-width: 768px) {
+				#content {
+					width: 60%;
+					margin-top: 50px;
+				}
+			}
+			@media screen and (max-width: 768px) {
+				#content {
+					width: 100%;
+				}
+			}
+		</style>
+		<script type="text/javascript" >
+			// chia làm 2 function : tinhTong(); và giaiThua();
+
+			// hàm giai thừa
+			// biến truyền và là n
+			function giaiThua(n) {
+				var giaiThua 	= 1; // khái báo biến giai thừa giá trị ban đầu bằng 1
+
+				for(var i = 1; i <= n; i++) {
+					giaiThua = giaiThua * i;
+				}
+
+				return giaiThua; // trả về kết quả giai thừa tính dược
+			}
+
+			// hàm tính tổng
+			function tinhTong() {
+				// khai báo biến
+				var n 			=  document.getElementById('n');
+				var result 		= document.getElementById('result');
+				var sum = 0; // biến tổng ban đầu bằng 0
+
+				// kiểm tra nếu là số thì tính tổng giai thừa
+				if(!isNaN(n.value)) {
+					for(var i = 1; i <= n.value; i++) {
+						sum = sum + (i / giaiThua(i));
+					}
+
+					result.innerHTML = "Kết quả: " + sum;
+				}else {
+					result.innerHTML = "Hãy nhập một số nguyên dương";
+				}
+			}
+		</script>
+	</head>
+	<body id="wrapper">
+		<div id="content">
+			<h1>Tính tổng S = 1 /1! + 2 /2! + ....+ n / n!</h1>
+			<label for="n">Nhập số nguyên dương N: </label>
+			<input type="text" name="soN" id="n" onkeyup="tinhTong()">
+			<br/>
+			<div id="result"></div>
+		</div>
+	</body>
+</html>

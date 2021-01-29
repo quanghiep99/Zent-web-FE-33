@@ -1,0 +1,20 @@
+.silder {
+	width: 70%;
+	height: 200px;
+	position: relative;
+	margin: 0 auto;
+
+}
+.slider-item {
+	float: left;
+	position: absolute;
+}
+.slider-controls{
+	width: 48%;
+	position: absolute;
+	z-index: 1;
+	margin-top: 10%;
+}
+.btn-next{
+	float: right;
+}

@@ -1,0 +1,67 @@
+.container {
+	width: 100%;
+	margin: 0px auto;
+	padding: 0;
+	
+	
+
+}
+.about {
+	width: 20%;
+	
+	padding: 10px;
+	padding-left: 20px;
+	position: relative;
+	overflow: hidden;
+	float: left;
+
+}
+.about img {
+	width: 100%;
+	height: 150px;
+}
+.about .gthieu {
+	text-align: center;
+}
+
+.about .tieusu {
+	
+	position: absolute;
+	background-color: pink;
+	opacity: 0.9;
+	position: absolute;
+	transition: top 1s ease-in;
+	top:100%;
+
+
+}
+.tieusu{
+	width: 100%;
+}
+.about:hover .tieusu {
+	top: 3%;
+	bottom: 0;
+}
+.tieusu h4 {
+	color: orange;
+	font-size: 20px;
+
+}
+.tieusu p {
+	color: gray;
+
+}
+@media all and (max-width: 768px){
+	
+	.about {
+		width: 40%;
+		margin-top: 10px;
+	}
+}
+@media all and (max-width: 510px){
+	.about {
+		width: 100%;
+		margin-top: 10px;
+	}
+}
+

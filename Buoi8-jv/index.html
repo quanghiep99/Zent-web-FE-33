@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<script type="text/javascript" src="js/index.js"></script>
+</head>
+<body>
+	<button onclick="alert('hello word') ">click me</button>
+	<script type="text/javascript">
+		var iszenter;
+		iszenter =confirm('ban co phai la hoc vien cua zent khong');
+		console.log('ban la hoc vien',iszenter);
+		var age;
+		age=prompt('nhap so tuoi cua ban','25');
+		console.log('tuoi cua ban la',age);
+		document.write(age);
+		document.write('\n');
+		var a=10;
+		var b=11;
+
+		a++;
+		b--;
+		c=a--+b++-++b-++a;
+		document.write(a);
+		document.write('\n');
+		document.write(b);
+		document.write('\n');
+		document.write(c);
+		console.log(a,b);
+		console.log('==', a==b );
+		console.log('!=',a != b);
+		 var deptrai = false;
+		 var nhagiau = true;
+		 console.log ('||',deptrai || nhagiau);
+		 console.log ('&&',deptrai && nhagiau);
+		 console.log ('!',!(deptrai&&nhagiau));
+		 if (deptrai && nhagiau) {
+		 	console.log('luong se chon lam ny');
+
+		 }
+		 else {
+		 	console.log('luong yeu nguoi khac');
+		 }
+
+		 var thu = 4;
+		 thu = parseInt(thu);
+
+		 switch (thu)
+		 {
+		 	case 2:
+		 	console.log(' thu hai ');
+		 	break;
+
+		 	case 3:
+		 	console.log(' thu ba ');
+		 	break;
+
+		 	default:
+		 	 console.log ('thu bon');
+
+		 	
+		 } 
+
+		 for (var i = 0; i < 10; i++) {
+		  console.log('chep phat lam thu' + (i+1));
+		 }
+
+
+		 var j=0;
+		 var s=0;
+		 while (s<200)
+		 {
+		 	console.log ('chep phat lan thu' + (j+1))
+		 	s=s+j;
+		 	j++;
+
+		 }
+		 console.log(s);
+		 var k=1;
+		 var s2=0;
+		 do {
+		 	console.log('so lan chep phat'+(k+1));
+		 	s2=s2+k;
+		 	k++;
+		 } while (s2<200)
+		 console.log(s2);
+
+
+		 function sayhello(){
+		 	console.log('sayhello');
+		 }
+
+		 function sum(a,b){
+		 	var tong=a+b;
+		 	return tong;
+		 }
+		 var x=10;
+		 var y=20;
+		 	console.log(sum(x,y));
+		 
+
+
+		 
+
+	</script>
+	
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+	<html lang="vi">
+	<head>
+		<meta charset="utf-8">
+		<title>Vẽ hình sử dụng vòng lặp - 03</title>
+		<style type="text/css">
+			* {
+				margin: 0;
+				margin: 0;
+			}
+
+			#wrapper {
+				background: gray;
+				background-size: cover;
+				width: 100%;
+			}
+			#content {
+				background: green;
+				opacity: 0.9;
+				margin: auto;
+			}
+			#content h1 {
+				text-align: center;
+				width: 100%;
+				opacity: 1;
+				background: gray;
+			}
+			#content input, label {
+				margin-top: 10px;
+				margin-bottom: 10px;
+			}
+			#result {
+				width: 100%;
+				font-size: 150%;
+				background: yellow;
+			}
+			@media screen and (min-width: 768px) {
+				#content {
+					width: 60%;
+					margin-top: 50px;
+				}
+			}
+			@media screen and (max-width: 768px) {
+				#content {
+					width: 100%;
+				}
+}
+		</style>
+		<script>
+			function veHinh() {
+				var n = document.getElementById('n');
+				var result = document.getElementById('result');
+				var ve = "";
+
+				if(!isNaN(n.value)) {
+					for(var i = 0; i < n.value; i++ ) {
+						ve = ve + "<p>";
+						for(var j = 0; j < n.value; j++) {
+							// ve = ve + "*";
+							if(j >= i) {
+								ve = ve + "*";
+							}else {
+								ve = ve + "&nbsp;&nbsp;";
+							}
+						}
+						// ve = ve + "</p>";
+						ve =ve + "<br/>";
+					}
+					result.innerHTML = ve;
+				}else {
+					result.innerHTML = "Không được nhập ký tự";
+				}
+			}
+		</script>
+	</head>
+	<body id="wrapper">
+		<div id="content">
+			<h1>Vẽ hình sử dụng vòng lặp - 03</h1>
+			<label for="n">Nhập chiều cao: </label>
+			<input type="text" name="soN" id="n" onkeyup="veHinh()">
+			<br/>
+			<div id="result"></div>
+		</div>
+	</body>
+</html>

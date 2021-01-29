@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<p id="textspan">asdasd</p>
+	<p id="hello" class="textclass1"> hello world</p> 	
+	<span class="textclass">Lorem ipsum dolor sit amet.</span>
+	<p class="textclass">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, id.</p>
+	<button onclick="testJs()">click me</button>
+	<script type="text/javascript">
+		var myElement = document.getElementById('hello');
+		console.log(myElement);
+		console.log(document.getElementsByClassName('textclass'));
+		console.log(document.getElementsByClassName('textclass'));
+		console.log(document.getElementsByTagName('p'));
+		document.getElementById('textspan').innerHTML ='<a href="">hahaa</a>';
+		document.getElementById('textspan').className = ' textSpanClass123';
+		var danhSachLop = document.getElementById('hello').className; // lay ra class hien tai
+		danhSachLop += ' textclass2'; // thay doi class hien tai thanh class hien tai + class moi
+		console.log(danhSachLop);
+		document.getElementById('hello').className = danhSachLop; 
+		function testJs() {
+			document.getElementById('hello').style.color = "red";
+		}
+
+
+	</script>
+	
+</body>
+</html>

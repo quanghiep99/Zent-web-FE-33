@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="ontapjs.css">
+</head>
+<body>
+	<div class="slider">
+		<div class="slider-wrapper-outer">
+			<div class="slider-item">
+				<img class="slider-img" src="image/_112710381_17.jpg">
+			</div>
+			<div class="slider-item">
+				<img class="slider-img" src="image/_112709669_indexhqgettyimages-1216814639.jpg">
+			</div>
+			<div class="slider-item">
+				<img class="slider-img" src="image/_112710381_17.jpg">
+			</div>
+			<div class="slider-item">
+				<img class="slider-img" src="image/_112709669_indexhqgettyimages-1216814639.jpg">
+			</div>
+			<div class="slider-item">
+				<img class="slider-img" src="image/_112710381_17.jpg">
+			</div>
+			<div class="slider-item">
+				<img class="slider-img" src="image/_112709669_indexhqgettyimages-1216814639.jpg">
+			</div>
+			<div class="slider-item">
+				<img class="slider-img" src="image/_112710381_17.jpg">
+			</div>
+			<div class="slider-item">
+				<img class="slider-img" src="image/_112709669_indexhqgettyimages-1216814639.jpg">
+			</div>
+			<div class="slider-item">
+				<img class="slider-img" src="image/_112710381_17.jpg">
+			</div>
+			<div class="slider-controls">
+				<button class="btn btn-prev"><i class="fas fa-chevron-left"> < </i></button>
+				<button class="btn btn-next"><i class="fa-chevron-right"> > </i></button>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+		var arrImg =document.getElementsByClassName('slider-img');
+		var arrSrcImg = [];
+		for (var i = 0; i < arrImg.length; i++) {
+			arrSrcImg.push(arrImg[i].getAttribute('src'));
+		}
+		var index = 0;
+		arrImg[index].parentNode.style.display = 'block';
+
+		var btnPrev = document.getElementsByClassName('btn-prev')[0];
+		var btnNext = document.getElementsByClassName('btn-next')[0];
+
+		btnPrev.addEventListener('click',fnPrev, false);
+		btnNext.addEventListener('click',fnNext,false);
+
+		function fnPrev(){
+			if (index == 0) {
+				index=arrSrcImg.length -1;
+			}
+			else{
+				index --;
+			}
+			for (var i = 0; i < arrSrcImg.length; i++) {
+				arrImg[i].parentNode.style.display = 'none';
+
+			}
+			arrImg[index].parentNode.style.display = 'block';
+		} 
+		function fnNext(){
+			if (index == 0) {
+				index=arrSrcImg.length -1;
+			}
+			else{
+				index --;
+			}
+			for (var i = 0; i < arrSrcImg.length; i++) {
+				arrImg[i].parentNode.style.display = 'none';
+
+			}
+			arrImg[index].parentNode.style.display = 'block';
+
+		} 
+		setInterval(fnNext,1000);
+    
+
+	</script>
+</body>
+</html>
